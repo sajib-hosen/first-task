@@ -1,0 +1,89 @@
+/*TO DESIGNE FULL BODY.*/
+body{
+    font-family: 'Otomanopee One', sans-serif;
+    margin: 0;
+}
+/*FOR FIRST SECTION AND SECOND SECTION DESIGN.(COMMON ITEM)*/
+.secid01{
+    display: flex;
+}
+.secid01 div{
+    width: 50%;
+    padding: 10px;
+}
+.secid01 img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+.secid01 h1{
+    font-size: 50px;
+}
+.secid01 a{
+    text-decoration: none;
+    background-image: linear-gradient(white, lightgreen);
+    padding: 6px 11px;
+    border-radius: 25px;
+    color: darkblue;
+}
+/*SOME SPECIFIC DESIGNE FOR SECOND SECTION.*/
+#sec-hea {
+    font-size: 30px;
+}
+#sec-img {
+    background-image: linear-gradient(rgb(137, 230, 206), blue);
+}
+#secid02 {
+    background-image:url(https://raw.githubusercontent.com/ProgrammingHero1/food-network/main/images/shapes/Frame%2056.jpg);
+    margin-bottom: 25px;
+}
+
+/*THIRS SECTION DESIGNE*/
+#thi-text {
+    text-align: center;
+}
+#thi-cons {
+    display: flex;
+    margin: 15px;
+}
+.thi-sub-con {
+    width: 30%;
+    margin: 10px;
+    padding: 0px;
+    border: 7px solid rgb(253, 227, 232);
+    box-shadow: 10px 10px 10px grey;
+    border-radius: 10px;
+}
+.thi-sub-con img {
+    width: 100%;
+    border-radius: 9px;
+}
+.thi-sub-con p {
+    padding: 4px;
+}
+
+/*SUBSCRIBE SECTION DESIGNE*/
+#last-sec {
+    margin: 50px;
+    display: flex;
+    text-align: center;
+    box-shadow: 10px 10px 10px black;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 93%;
+}
+.last-sec-txt {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+/*FOOTER DESIGNE*/
+footer {
+    background-color: rgb(56, 56, 56);
+    text-align: center;
+    padding: 20px;
+    color: honeydew;
+}
